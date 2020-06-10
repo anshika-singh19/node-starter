@@ -1,0 +1,29 @@
+<main>
+    <div>
+        {{#if hasProducts}}
+        {{#each prod}}
+        <div>
+            <h1>{{this.title}}</h1>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254__340.jpg" alt="card Image" />
+            </div>
+            <div>
+                <h2>
+                    $19.99
+                </h2>
+                <p>
+                    A very intresting book about so many
+                </p>
+            </div>
+            <div>
+                <button>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        {{/each}}
+        {{else}}
+        <h1>No products found</h1>
+        {{/if}}
+    </div>
+</main>

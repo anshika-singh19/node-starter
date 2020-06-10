@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "new bok",
+    "imageUrl": "https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254__340.jpg",
+    "description": "very interesting book",
+    "price": "19.99"
+  },
+  {
+    "id": "2",
+    "title": "new",
+    "imageUrl": "https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254__340.jpg",
+    "description": "",
+    "price": "2.0"
+  }
+]
